@@ -1,0 +1,83 @@
+body{
+    background: #296337;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#hdr{
+    color: antiquewhite;
+    min-height: 220px;
+    padding-top: 3em;
+    padding-bottom: 0 ;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.dest{
+    background: #048c24;
+}
+
+h1,h2,p {
+    margin: 0;
+}
+
+img {
+    width:100% ; 
+}
+
+.dest{
+width: 40%;
+display: inline-block;
+
+}
+
+.btn{
+    text-decoration: none;
+    color: azure;
+    padding: 1em 2em ;
+    border: 1px solid rgb(72, 248, 169);
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.btn:hover{
+    background: rgb(174, 67, 67);
+}
+.hdr-bg {
+    background: url("images/brown-camel-931881.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 260px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    margin: 0;
+}
+h2, h3{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+section{
+    padding-bottom: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.contact{
+    background: #5cae73;
+}
+
+.prices{
+    background: rgba(58, 96, 10, 0.804)  ;
+    min-height: 100px;
+}
+
+footer{
+    min-height: 50px;
+    background: #4cd673;
+    color:rgb(246, 255, 247);
+    line-height: 50px;
+}
